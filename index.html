@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lista Telefônica</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+    <style>
+      .jumbotron
+      {
+        width: 400px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+      }
+      .table{
+        margin-top: 20px;
+      }
+      .form-control{
+        margin-bottom: 5px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="form-group">
+        <h1>Hello World</h1>
+
+        <input class="form-control" placeholder="Digite a sua busca" type="text" id="search">
+
+        <button class="btn btn-primary btn-block" onclick="search();" >Busca</button>
+
+        <h3>Resultado:</h3>
+
+        <span id="result"></span>
+
+      <script src='search.js'>
+
+      </script>
+      </div>
+    </div>
+  </body>
+</html>
